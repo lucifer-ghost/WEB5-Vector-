@@ -1,0 +1,586 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+/* Nav Bar */
+
+nav {
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+#r1 {
+    height: 100%;
+    width: 500px;
+    margin-right: 65px;
+}
+#r1 a {
+    text-decoration: none;
+    color: red;
+    font-size: 18px;
+}
+#r1 a:hover {
+    color: black;
+}
+nav img {
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 100px;
+}
+#r1 ul {
+    list-style: none;
+    display: flex;
+    padding-top: 27px;
+    gap: 50px;
+}
+
+/* Big Image */
+
+#image1 {
+    height: 88.5vh;
+    width: 100%;
+    background-image: url(4.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+#image1 h2 {
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(227, 106, 0);
+}
+#image1 p {
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(255, 255, 255);
+}
+#image1 button {
+    height: 40px;
+    width: 200px;
+    background-color: transparent;
+    border: 2px solid aliceblue;
+    border-radius: 10px;
+    font-size: 17px;
+    color: aliceblue;
+}
+#image1 button:hover {
+    cursor: pointer;
+    border: 2px solid rgb(227, 106, 0);
+    color: rgb(227, 106, 0);
+}
+
+/* Testimonials One */
+
+#login {
+    margin-top: 100px;
+}
+#login h2 {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(227, 106, 0);
+}
+#r2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 100px;
+}
+.c1 {
+    height: 300px;
+    width: 600px;
+    background-color: rgb(111, 221, 2);
+    border-radius: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.c1 img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+.c1 p {
+    font-size: 18px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.c1 h3 {
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* Login Page */
+
+#login_page {
+    height: 90vh;
+    width: 100%;
+    margin-top: 100px;
+    background-image: url(3.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#signin {
+    height: 75%;
+    width: 30%;
+    background-image: url(5.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+#signin h3 {
+    font-size: 30px;
+    color: white;
+}
+#signin button {
+    height: 40px;
+    width: 300px;
+    background-color: transparent;
+    border: 2px solid red;
+    border-radius: 25px;
+    font-size: 20px;
+    color: red;
+}
+#signin button:hover {
+    color: rgb(63, 182, 193);
+    border: 2px solid rgb(63, 182, 193);
+}
+
+/* Facebook */
+
+#facebook {
+    height: 70vh;
+    width: 100%;
+    background-color: rgb(217, 225, 232);
+    padding: 80px 200px; 
+    box-sizing: border-box;
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+#facebook #face1 {
+    height: 70%;
+    width: 30%;
+}
+#facebook #face1 h3 {
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(25, 121, 255);
+    margin-top: 30px;
+}
+#facebook #face1 p {
+    font-size: 17px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-right: 20px;
+}
+#facebook #face2 {
+    height: 90%;
+    width: 30%;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+#facebook #face2 input {
+    height: 36px;
+    width: 90%;
+    padding-left: 10px;
+    border: 1px solid rgb(185, 182, 182);
+    border-radius: 5px;
+}
+#facebook #face2 a #f21 {
+    height: 36px;
+    width: 312px;
+    color: white;
+    background-color: rgb(25, 121, 255);
+    border: 1px solid rgb(185, 182, 182);
+    border-radius: 5px;
+    font-size: 17px;
+}
+#facebook #face2 a #f21:hover {
+    color: rgb(25, 121, 255);
+    background-color: white;
+    cursor: pointer;
+}
+#facebook #face2 a #f22 {
+    height: 36px;
+    width: 312px;
+    color: rgb(25, 121, 255);
+    background-color: white;
+    border: 1px solid rgb(236, 236, 236);
+    border-radius: 5px;
+    font-size: 17px;
+}
+#facebook #face2 a #f22:hover {
+    color: white;
+    background-color: rgb(25, 121, 255);
+    cursor: pointer;
+}
+#facebook #face2 #line {
+    height: 1px;
+    width: 312px;
+    background-color: rgb(185, 182, 182);
+}
+#facebook #face2 a #f23 {
+    height: 36px;
+    width: 200px;
+    color: white;
+    background-color: rgb(55, 169, 26);
+    border: 1px solid rgb(236, 236, 236);
+    border-radius: 5px;
+    font-size: 17px;
+}
+#facebook #face2 a #f23:hover {
+    background-color: black;
+    cursor: pointer;
+}
+
+
+/* Twitter */
+
+#twitter {
+    height: 80vh;
+    width: 100%;
+    margin-top: 80px;
+    display: flex;
+}
+#twitter #t1 {
+    height: 100%;
+    width: 60%;
+    background-image: url(twitter.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#twitter #t2 {
+    height: 100%;
+    width: 40%;
+    padding: 40px;
+}
+#twitter #t2 img {
+    height: 40px;
+    width: 50px;
+}
+#twitter #t2 h1 {
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#twitter #t2 h2 {
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#g_signin {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+#twitter #t2 #g_signin img {
+    height: 25px;
+    width: 25px;
+}
+#twitter #t2 #g_signin button {
+    height: 40px;
+    width: 200px;
+    background-color: #fff;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    border: 1px solid black;
+}
+#twitter #t2 #g_signin button:hover {
+    cursor: pointer;
+}
+#twitter #t2 #g_signin button p {
+    color: black;
+    font-size: 12px;
+}
+#twitter #t2 #g_signin a {
+    text-decoration: none;
+}
+#g_signin button {
+    font-size: 12px;
+    font-weight: bold;
+}
+#twitter #t2 #line1 {
+    height: 2px;
+    width: 200px;
+    background-color: rgb(185, 182, 182);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#t2 button {
+    height: 40px;
+    width: 200px;
+    background-color: rgb(26, 193, 249);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    border: none;
+}
+#t2 button:hover {
+    cursor: pointer;
+    background-color: white;
+    border: 1px solid rgb(185, 182, 182);
+}
+#t2 button:hover p {
+    color: rgb(26, 193, 249);
+}
+#t2 a {
+    text-decoration: none;
+}
+#t2 a button p {
+    color: white;
+    font-size: 12px;
+    font-weight: normal;
+}
+#t2 p {
+    font-size: 18px;
+    font-weight: bolder;
+}
+#twitter #t2 #t9 a button{
+    background-color: #fff;
+    border: 1px solid black;;
+}
+#twitter #t2 #t9 a button:hover {
+    cursor: pointer;
+    background-color: rgb(26, 193, 249);
+    border: 1px solid rgb(185, 182, 182);
+}
+#twitter #t2 #t9 a button:hover p {
+    color: white;
+}
+#twitter #t2 #t9 a button p {
+    font-size: 14px;
+    color: rgb(10, 191, 251);
+}
+
+/* Ascent */
+
+#ascent {
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(217, 225, 232);
+    padding: 70px 100px;
+    box-sizing: border-box;
+    margin-top: 80px;
+    display: flex;
+}
+#ascent #as1 {
+    height: 100%;
+    width: 60%;
+    background-image: url(Ascent.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#ascent #as2 {
+    height: 100%;
+    width: 40%;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+#ascent #as2 h3 {
+    font-size: 25px;
+    color: #595c61;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#ascent #as2 input {
+    height: 40px;
+    width: 400px;
+    font-size: 18px;
+    padding-left: 20px;
+    box-sizing: border-box;
+    background-color: white;
+    border: 1px solid rgb(191, 198, 204);
+    border-radius: 5px;
+}
+#ascent #as2 a button {
+    height: 40px;
+    width: 400px;
+    font-size: 18px;
+    color: white;
+    background-color: rgb(0, 98, 183);
+    border: 1px solid rgb(191, 198, 204);
+    border-radius: 5px;
+}
+#ascent #as2 a button:hover {
+    color: rgb(0, 98, 183);
+    background-color: white;
+}
+
+/* Testimonials Two */
+
+#test_two {
+    height: 50vh;
+    width: 100%;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+#test_two h3 {
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(227, 106, 0);
+}
+#test_two img {
+    height: 100px;
+    width: 100px;
+    padding: 5px;
+    border-radius: 50%;
+    border: 2px solid rgb(227, 106, 0);
+}
+#test_two p {
+    font-size: 18px;
+    text-align: center;
+    padding-left: 350px;
+    padding-right: 350px;
+}
+#test_two h4 {
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(227, 106, 0);
+}
+#test_two h2 {
+    font-size: 16px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* Courses */
+
+#foo {
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(217, 225, 232);
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    column-gap: 160px;
+}
+#foo .c3 {
+    height: 180px;
+    width: 40%;
+    background-color: #fff;
+}
+.c4 {
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-bottom: 50px;
+    box-sizing: border-box;
+}
+.c4 p {
+    font-size: 12px;
+    color: #8d929b;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.c4 h4 {
+    font-size: 20px;
+    color: rgb(251, 86, 113);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.c5 {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    box-sizing: border-box;
+    justify-content: space-between;
+}
+.c5 div i {
+    margin-right: 10px;
+}
+.c5 div p {
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #8d929b;
+}
+.c5 button {
+    height: 34px;
+    width: 200px;
+    font-size: 18px;
+    background-color: #fff;
+    color: rgb(251, 86, 113);
+    border: 2px solid rgb(251, 86, 113);
+    border-radius: 20px;
+    cursor: pointer;
+}
+.c5 button:hover {
+    color: black;
+    border: 3px solid black;
+}
+.c5 button i {
+    margin-right: 10px;
+}
+
+/* Footer */
+
+footer {
+    height: 50vh;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    box-sizing: border-box;
+}
+.f1 {
+    height: 80%;
+    width: 23%;
+    background-color: black;
+}
+.f1 h3 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+}
+.f1 .line {
+    height: 2px;
+    width: 100%;
+    background-color: rgb(227, 106, 0);
+    margin-top: 3px;
+}
+.f1 p {
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.ph {
+    display: flex;
+    gap: 10px;
+}
+#p1 {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
